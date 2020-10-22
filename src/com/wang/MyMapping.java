@@ -15,7 +15,6 @@ public class MyMapping {
     static {
         hashMap.put("/mytomcat", "com.wang.MyServlet");
     }
-
     public HashMap<String, String> getHashMap() {
         return hashMap;
     }

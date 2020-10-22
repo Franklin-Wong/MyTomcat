@@ -10,13 +10,10 @@ import java.io.InputStream;
  * @Description com.wang
  */
 public class MyRequest {
-    
     //请求方式
     private String requestMethod;
-
     //请求地址
     private String requestUrl;
-
     /**
      * 请求
      * @param inputStream 输入流

@@ -9,7 +9,6 @@ import java.io.OutputStream;
  * @description com.wang
  */
 public class MyResponse {
-
     //响应数据
     private OutputStream outputStream;
 

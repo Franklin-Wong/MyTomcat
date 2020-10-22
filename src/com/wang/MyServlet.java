@@ -8,16 +8,13 @@ package com.wang;
  */
 public class MyServlet extends MyHttpServlet {
 
-
     @Override
     public void doGet(MyRequest request, MyResponse response) throws Exception {
-
         response.write("get mytomcat");
     }
 
     @Override
     public void doPost(MyRequest request, MyResponse response) throws Exception {
         response.write("post mytomcat");
-
     }
 }

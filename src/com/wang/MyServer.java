@@ -46,7 +46,6 @@ public class MyServer {
                 MyServlet myServlet = (MyServlet) aClass.newInstance();
                 myServlet.service(request,response);
             }
-
         }
     }
 
